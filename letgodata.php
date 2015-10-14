@@ -20,8 +20,8 @@
 			<li>Seller will choose a general catagory for the item to appear under</li>
 			<li>seller will click the "sell" button</li></p>
 		<h2> LetGo Use Case for The Buyer</h2>
-		<p>
-			<li>buyer will search the site for an item</li>
+
+		<p><li>buyer will search the site for an item</li>
 			<li>Based on the distance and price buyer will click on an item</li>
 			<li>Buyer will land </li>
 			<li>buyers will make an offer</li>
