@@ -11,8 +11,7 @@
 		<h2>LetGo Buyers Profile</h2>
 
 		<ul><li>Somebody between the ages of 18 and 35</li>
-			<li>people who are moving</li>
-			<li>bargin hunters that are looking for specific items</li>
+			 <li>bargin hunters that are looking for specific items</li>
 			<li>makes less than $50k a year</li>
 			<li>likes gently used</li>
 			<li>uses mobile apps</li>
