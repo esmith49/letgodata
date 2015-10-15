@@ -22,7 +22,7 @@
 			<ul><li>Someone that has things they no longer use or need</li>
 				 <li>Someone that doesn't want to deal with the freaks on Craigslist</li>
 				 <li>Someone that doesn't want to deal with the hassel of having a garage sale</li>
-
+				 <li>people who are moving</li>
 
 
 		<h2>Goals</h2>
