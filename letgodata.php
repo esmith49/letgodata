@@ -8,7 +8,7 @@
 
 		<h1>LetGo Data</h1>
 
-		<h2>LetGo Buyers Persona</h2>
+		<h2>LetGo Buyers Profile</h2>
 
 		<ul><li>Somebody between the ages of 18 and 35</li>
 			<li>people who are moving</li>
@@ -22,7 +22,7 @@
 
 		<ul><li>looking to buy old computer equipment</li></ul>
 
-		<h2>buyer Profile</h2>
+		<h2>buyer Persona</h2>
 
 		<p>Michael Myers is a hipster recent college grad working at the Comcast tech support line. He makes about $35,000 a year and is a collecter of old computer memorabilia. Michael like old things because he is a hipster and liked them before they were cool so he dosen't mind used items.  Michael works for Comcast so he has plenty of time to browse his phones mobile app while at work. </p>
 
