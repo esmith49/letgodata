@@ -8,7 +8,7 @@
 
 		<h1>LetGo Data</h1>
 
-		<h2>LetGo Buyers Profile</h2>
+		<h2>LetGo Users Profile</h2>
 
 		<ul><li>Somebody between the ages of 18 and 35</li>
 			 <li>Bargin hunters that are looking for specific items</li>
@@ -16,28 +16,20 @@
 			<li>Likes gently used</li>
 			<li>Uses mobile apps</li>
 			<li>Tech savy</li>
+			<li>Someone that has things they no longer use or need</li>
+			<li>Someone that doesn't want to deal with the freaks on Craigslist</li>
+			<li>Someone that doesn't want to deal with the hassel of having a garage sale</li>
+			<li>People who are moving</li>
 			</ul>
-
-			<h2>LetGo Sellers Profile</h2>
-			<ul><li>Somebody between the ages of 18 and 35</li>
-				 <li>Tech savy</li>
-				 <li>Someone that has things they no longer use or need</li>
-				 <li>Someone that doesn't want to deal with the freaks on Craigslist</li>
-				 <li>Someone that doesn't want to deal with the hassel of having a garage sale</li>
-				 <li>People who are moving</li>
-				</ul>
+		<p> Jack Johnson is a 37 year old man cleaning out his fathers garage and found all of the junk his father has collected over 70 years.  Jack does not want to have a garage sale but he has time to upload pictures to his Android phone and meet Michael Myers at his fathers house to collect $75.00 for the old computer equipment</p>
+		<p>Michael Myers is a hipster recent college grad working at the Comcast tech support line. He makes about $35,000 a year and is a collecter of old computer memorabilia. Michael like old things because he is a hipster and liked them before they were cool so he dosen't mind used items.  Michael works for Comcast so he has plenty of time to browse his iPhone 6S mobile app while at work. </p>
 
 
 		<h2>Goals</h2>
 		<ul>
 			<li>Connect people that have things they don't want to people that want to buy used items</li>
 		   <li>Looking to buy old computer equipment</li></ul>
-		<h2>Seller Persona</h2>
-		<p> Jack Johnson is a 37 year old man cleaning out his fathers garage and found all of the junk his father has collected over 70 years.  Jack does not want to have a garage sale but he has time to upload pictures to his Android phone and meet Michael Myers at his fathers house to collect $75.00 for the old computer equipment</p>
 
-		<h2>Buyer Persona</h2>
-
-		<p>Michael Myers is a hipster recent college grad working at the Comcast tech support line. He makes about $35,000 a year and is a collecter of old computer memorabilia. Michael like old things because he is a hipster and liked them before they were cool so he dosen't mind used items.  Michael works for Comcast so he has plenty of time to browse his iPhone 6S mobile app while at work. </p>
 
 		<h2>LetGo Use Case for the Seller</h2>
 
