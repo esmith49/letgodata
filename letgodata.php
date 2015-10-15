@@ -18,13 +18,21 @@
 			<li>uses mobile apps</li>
 			<li>tech savy</li>
 
-		<h2>Goals</h2>
+			<h2>LetGo Sellers Profile</h2>
+			<ul><li>Someone that has things they no longer use or need</li>
+				 <li>Someone that doesn't want to deal with the freaks on Craigslist</li>
+				 <li>Someone that doesn't want to deal with the hassel of having a garage sale</li>
 
+
+
+		<h2>Goals</h2>
+		<ul>
+			<li>Connect people that have things they don't want to people that want to buy used items</li>
 		<ul><li>looking to buy old computer equipment</li></ul>
 
-		<h2>buyer Persona</h2>
+		<h2>Buyer Persona</h2>
 
-		<p>Michael Myers is a hipster recent college grad working at the Comcast tech support line. He makes about $35,000 a year and is a collecter of old computer memorabilia. Michael like old things because he is a hipster and liked them before they were cool so he dosen't mind used items.  Michael works for Comcast so he has plenty of time to browse his phones mobile app while at work. </p>
+		<p>Michael Myers is a hipster recent college grad working at the Comcast tech support line. He makes about $35,000 a year and is a collecter of old computer memorabilia. Michael like old things because he is a hipster and liked them before they were cool so he dosen't mind used items.  Michael works for Comcast so he has plenty of time to browse his iPhone 6S mobile app while at work. </p>
 
 		<h2>LetGo Use Case for the Seller</h2>
 
