@@ -63,9 +63,11 @@
 		</ul>
 		<h2>Conceptual Model</h2>
 		<ul>
-			<li>The Seller can sell many products</li>
-			<li>The Buyer can buy many items</li>
-			<li>Many Buyers can make offers on the Sellers product</li>
+			<li>A User has a user name, e-mail address,a password and a location</li>
+			<li>A user can buy or sell many items</li>
+			<li>An item can only have one user</li>
+			<li>An item can have multiple pictures</li>
+			<li>Many users can make offers on the item</li>
 		</ul>
 	</body>
 </html>
