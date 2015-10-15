@@ -40,6 +40,7 @@
 			<li>Seller will enter a brief description of the item</li>
 			<li>Seller will choose a general category for the item to appear under</li>
 			<li>Seller will click the "sell" button</li>
+			<li>The site will upload all of the information and make it available to the public</li>
 		</ul>
 
 		<h2> LetGo Use Case for The Buyer</h2>
