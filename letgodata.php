@@ -28,7 +28,7 @@
 		<h2>Goals</h2>
 		<ul>
 			<li>Connect people that have things they don't want to people that want to buy used items</li>
-		<ul><li>looking to buy old computer equipment</li></ul>
+		   <li>looking to buy old computer equipment</li></ul>
 
 		<h2>Buyer Persona</h2>
 
