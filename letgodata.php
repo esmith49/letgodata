@@ -61,5 +61,9 @@
 			<li>Buyer will click on "send"</li>
 			<li>Once offer is accepted the seller will confirm by e-mail and ship item</li>
 		</ul>
+		<h2>Conceptual Model</h2>
+		<ul>
+			<li>The Seller can sell many products</li>
+			<li>The Buyer can buy many items</li>
 	</body>
 </html>
