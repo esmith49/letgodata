@@ -11,11 +11,12 @@
 		<h2>LetGo Buyers Profile</h2>
 
 		<ul><li>Somebody between the ages of 18 and 35</li>
-			 <li>bargin hunters that are looking for specific items</li>
+			 li>bargin hunters that are looking for specific items</li>
 			<li>makes less than $50k a year</li>
 			<li>likes gently used</li>
 			<li>uses mobile apps</li>
 			<li>tech savy</li>
+			</ul>
 
 			<h2>LetGo Sellers Profile</h2>
 			<ul><li>Someone that has things they no longer use or need</li>
