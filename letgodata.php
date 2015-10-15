@@ -33,7 +33,7 @@
 			<li>Connect people that have things they don't want to people that want to buy used items</li>
 		   <li>Looking to buy old computer equipment</li></ul>
 		<h2>Seller Persona</h2>
-		<p> Jack Johnson is a 37 year old man cleaning out his fathers garage and found all of the junk his father has collected over 70 years.  Jack does not want to have a garage sale but he has time to upload pictures to his Android phone and meet Michael Myers at his faters house to collect $75.00 for the old computer equipment</p>
+		<p> Jack Johnson is a 37 year old man cleaning out his fathers garage and found all of the junk his father has collected over 70 years.  Jack does not want to have a garage sale but he has time to upload pictures to his Android phone and meet Michael Myers at his fathers house to collect $75.00 for the old computer equipment</p>
 
 		<h2>Buyer Persona</h2>
 
