@@ -11,27 +11,27 @@
 		<h2>LetGo Buyers Profile</h2>
 
 		<ul><li>Somebody between the ages of 18 and 35</li>
-			 <li>bargin hunters that are looking for specific items</li>
-			<li>makes less than $50k a year</li>
-			<li>likes gently used</li>
-			<li>uses mobile apps</li>
-			<li>tech savy</li>
+			 <li>Bargin hunters that are looking for specific items</li>
+			<li>Makes less than $50k a year</li>
+			<li>Likes gently used</li>
+			<li>Uses mobile apps</li>
+			<li>Tech savy</li>
 			</ul>
 
 			<h2>LetGo Sellers Profile</h2>
 			<ul><li>Somebody between the ages of 18 and 35</li>
-				 <li>tech savy</li>
+				 <li>Tech savy</li>
 				 <li>Someone that has things they no longer use or need</li>
 				 <li>Someone that doesn't want to deal with the freaks on Craigslist</li>
 				 <li>Someone that doesn't want to deal with the hassel of having a garage sale</li>
-				 <li>people who are moving</li>
+				 <li>People who are moving</li>
 				</ul>
 
 
 		<h2>Goals</h2>
 		<ul>
 			<li>Connect people that have things they don't want to people that want to buy used items</li>
-		   <li>looking to buy old computer equipment</li></ul>
+		   <li>Looking to buy old computer equipment</li></ul>
 		<h2>Seller Persona</h2>
 		<p> Jack Johnson is a 37 year old man cleaning out his fathers garage and found all of the junk his father has collected over 70 years.  Jack does not want to have a garage sale but he has time to upload pictures to his Android phone and meet Michael Myers at his faters house to collect $75.00 for the old computer equipment</p>
 
@@ -56,7 +56,7 @@
 			<li>Buyer will search the site for an item</li>
 			<li>Based on the distance and price buyer will click on an item</li>
 			<li>Buyer will land on a product</li>
-			<li>buyers will click on "Make an Offer"</li>
+			<li>Buyers will click on "Make an Offer"</li>
 			<li>Buyer will enter a dollar amount in the offer line</li>
 			<li>Buyer will click on "send"</li>
 			<li>Once offer is accepted the seller will confirm by e-mail and ship item</li>
