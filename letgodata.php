@@ -66,5 +66,6 @@
 			<li>The Seller can sell many products</li>
 			<li>The Buyer can buy many items</li>
 			<li>Many Buyers can make offers on the Sellers product</li>
+		</ul>
 	</body>
 </html>
