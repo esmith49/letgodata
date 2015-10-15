@@ -47,13 +47,13 @@
 			<li>Seller will enter a suggested sale price</li>
 			<li>Seller will enter a brief description of the item</li>
 			<li>Seller will choose a general category for the item to appear under</li>
-			<li>seller will click the "sell" button</li>
+			<li>Seller will click the "sell" button</li>
 		</ul>
 
 		<h2> LetGo Use Case for The Buyer</h2>
 
 		<ul>
-			<li>buyer will search the site for an item</li>
+			<li>Buyer will search the site for an item</li>
 			<li>Based on the distance and price buyer will click on an item</li>
 			<li>Buyer will land on a product</li>
 			<li>buyers will click on "Make an Offer"</li>
