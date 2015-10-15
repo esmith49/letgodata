@@ -10,7 +10,13 @@
 
 		<h2>LetGo Buyers Persona</h2>
 
-		<p>Somebody between the ages of 18 and 35, people who are moving, bargin hunters that are looking for specific items makes less than $50k a year, likes gently used, uses mobile apps, tech savy.</p>
+		<ul><li>Somebody between the ages of 18 and 35</li>
+			<li>people who are moving</li>
+			<li>bargin hunters that are looking for specific items</li>
+			<li>makes less than $50k a year</li>
+			<li>likes gently used</li>
+			<li>uses mobile apps</li>
+			<li>tech savy</li>
 
 		<h2>Goals</h2>
 
