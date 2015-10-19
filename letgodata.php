@@ -62,6 +62,7 @@
 			<li>An item can have multiple pictures</li>
 			<li>Many users can make offers on the item</li>
 		</ul>
+		<img src="Images/letgoerd.svg" about="let go ERD"/>
 
 	</body>
 </html>
