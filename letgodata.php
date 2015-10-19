@@ -64,6 +64,31 @@
 		</ul>
 		<h2>LetGo ERD</h2>
 		<img src="Images/letgoerd.svg" about="let go ERD"/>
+		<h2>Code Sample</h2>
+		<pre>
+			<code>
+				DROP TABLE IF EXISTS product;
+				DROP TABLE IF EXISTS profile;
 
+				CREATE TABLE profile (
+				profileId INT UNSIGNED AUTO_INCREMENT NOT NULL,
+				email VARCHAR(128) NOT NULL,
+				zipCode VARCHAR(10),
+				userName VARCHAR(32) NOT NULL,
+				UNIQUE(userName),
+				UNIQUE(email),
+				PRIMARY KEY(profileId)
+				);
+
+				CREATE TABLE product (
+				productId INT UNSIGNED AUTO_INCREMENT NOT NULL,
+				profileId INT UNSIGNED NOT NULL,
+				product VARCHAR(140) NOT NULL,
+				INDEX(profileId),
+				FOREIGN KEY(profileId) REFERENCES profile(profileId),
+				PRIMARY KEY(productId)
+				);
+			</code>
+		</pre>
 	</body>
 </html>
