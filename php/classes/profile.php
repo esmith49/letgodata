@@ -88,7 +88,12 @@ class profile {
 	public function setemail($newemail){
 		// verify the email content is secure
 		$email = trim($newemail);
+
+		//A check needs to be performed to verify that $email !== FALSE
+		//after the filter var returns it's value as it returns a boolean if it fails
+		//and would pass all checks after this line.
 		$email = filter_var($email, FILTER_SANITIZE_EMAIL);
+
 		if(empty($email) === true) {
 			throw(new InvalidArgumentException("email content is empty or insecure"));
 		}
@@ -155,6 +160,11 @@ class profile {
 		// verify the user name is secure
 		$newuserName = trim($newuserName);
 		$newuserName = filter_var($newuserName, FILTER_SANITIZE_STRING);
+
+		if($newuserName === false){
+			throw(new InvalidArgumentException("User name is not a valid string."));
+		}
+
 		if(empty($newuserName) === true) {
 			throw(new InvalidArgumentException("user name is empty or insecure"));
 		}
