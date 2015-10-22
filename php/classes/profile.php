@@ -39,7 +39,7 @@ class profile {
 	 * @return mixed value of profile id
 	 **/
 	public function getprofileId() {
-		return($this->profileId);
+		return ($this->profileId);
 	}
 
 	/**
@@ -50,7 +50,7 @@ class profile {
 	 * @throws RangeException if $newprofileId is not positive
 	 **/
 	public function setprofileId($newprofileId) {
-		// base case: if the tweet id is null, this a new tweet without a mySQL assigned id (yet)
+		// base case: if the profile id is null, this a new profile without a mySQL assigned id (yet)
 		if($newprofileId === null) {
 			$this->profileId = null;
 			return;
@@ -60,7 +60,7 @@ class profile {
 		if($newprofileId === false) {
 			throw(new InvalidArgumentException("profile id is not a valid integer"));
 
-	}
+		}
 		// verify the profile id is positive
 		if($newprofileId <= 0) {
 			throw(new RangeException("profile id is not positive"));
@@ -75,7 +75,7 @@ class profile {
 	 * @return string value of email content
 	 **/
 	public function getemail() {
-		return($this->email);
+		return ($this->email);
 	}
 
 	/**
@@ -85,9 +85,9 @@ class profile {
 	 * @throws InvalidArgumentException if $email is not a string or insecure
 	 * @throws RangeException if $email is > 128 characters
 	 **/
-	public function setemail($email) {
+	public function setemail($newemail){
 		// verify the email content is secure
-		$email = trim($email);
+		$email = trim($newemail);
 		$email = filter_var($email, FILTER_SANITIZE_EMAIL);
 		if(empty($email) === true) {
 			throw(new InvalidArgumentException("email content is empty or insecure"));
@@ -101,14 +101,16 @@ class profile {
 		// store the tweet content
 		$this->email = $email;
 	}
+
 	/**
 	 * accessor method for zip code
 	 *
 	 * @return string value of zip code
 	 **/
 	public function getzipCode() {
-		return($this->zipCode);
+		return ($this->zipCode);
 	}
+
 	/**
 	 * mutator method for zipCode content
 	 *
@@ -118,27 +120,28 @@ class profile {
 	 **/
 	public function setzipCode($newzipCode) {
 		// verify the zip code is valid
-		$zipCode = trim($zipCode);
-		$newzipCode = filter_var($newzipCode, FILTER_SANITIZE_STRING);
-		if(empty($newzipCode) === true) {
+		$zipCode = trim($newzipCode);
+		$zipCode = filter_var($zipCode, FILTER_SANITIZE_STRING);
+		if(empty($zipCode) === true) {
 			throw(new InvalidArgumentException("Zip Code information is empty or insecure"));
 		}
 
 		// verify the zip code will fit in the database
-		if(strlen($newzipCode) === 10)|| ==== 5 {
+		if(strlen($zipCode) !== 10 || strlen($newzipCode) !== 5){
 			throw(new RangeException("zip code too long or not long enough"));
 		}
 
 		// store the tweet content
-		$this->zipCode = $newzipCode;
+		$this->zipCode = $zipCode;
 	}
+
 	/**
 	 * accessor method for user name
 	 *
 	 * @return string value of user name
 	 **/
 	public function getuserName() {
-		return($this->userName);
+		return ($this->userName);
 	}
 
 	/**
@@ -164,3 +167,5 @@ class profile {
 		// store the user name
 		$this->userName = $newuserName;
 	}
+
+}
