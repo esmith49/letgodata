@@ -1,5 +1,5 @@
 <?php
-require_once(dirname(dirname(__DIR__)) . "/lib/php/date-utils.php");
+
 
 /**
  * Creating a profile so a user can buy/sell items
@@ -10,7 +10,7 @@ require_once(dirname(dirname(__DIR__)) . "/lib/php/date-utils.php");
  *
  * @author Evan Smith <esmith49@cnm.edu>
  **/
-class profile {
+class Profile {
 	/**
 	 * id for this user; this is the primary key
 	 * @var int $profileId
@@ -34,11 +34,40 @@ class profile {
 	private $userName;
 
 	/**
+	 * constructor for this Profile
+	 *
+	 * @param mixed $newprofileId id of this user or null if a new user
+	 * @param int $newemail email address of the Profile user
+	 * @param string $newTzipCode location setting for the user
+	 * @param mixed $newuserName name of the user
+	 * @throws InvalidArgumentException if data types are not valid
+	 * @throws RangeException if data values are out of bounds (e.g., strings too long, negative integers)
+	 * @throws Exception if some other exception is thrown
+	 **/
+	public function __construct($newProfileId, $newEmail, $newZipCode, $newUserName = null) {
+		try {
+			$this->setProfileId($newProfileId);
+			$this->setEmail($newEmail);
+			$this->setZipCode($newZipCode);
+			$this->setUserName($newUserName);
+		} catch(InvalidArgumentException $invalidArgument) {
+			// rethrow the exception to the caller
+			throw(new InvalidArgumentException($invalidArgument->getMessage(), 0, $invalidArgument));
+		} catch(RangeException $range) {
+			// rethrow the exception to the caller
+			throw(new RangeException($range->getMessage(), 0, $range));
+		} catch(Exception $exception) {
+			// rethrow generic exception
+			throw(new Exception($exception->getMessage(), 0, $exception));
+		}
+	}
+
+	/**
 	 * accessor method for profile id
 	 *
 	 * @return mixed value of profile id
 	 **/
-	public function getprofileId() {
+	public function getProfileId() {
 		return ($this->profileId);
 	}
 
@@ -74,7 +103,7 @@ class profile {
 	 *
 	 * @return string value of email content
 	 **/
-	public function getemail() {
+	public function getEmail() {
 		return ($this->email);
 	}
 
@@ -112,7 +141,7 @@ class profile {
 	 *
 	 * @return string value of zip code
 	 **/
-	public function getzipCode() {
+	public function getZipCode() {
 		return ($this->zipCode);
 	}
 
@@ -132,7 +161,7 @@ class profile {
 		}
 
 		// verify the zip code will fit in the database
-		if(strlen($zipCode) !== 10 || strlen($newzipCode) !== 5){
+		if(!(strlen($zipCode) === 10 ^ strlen($newzipCode) === 5)) {
 			throw(new RangeException("zip code too long or not long enough"));
 		}
 
@@ -145,7 +174,7 @@ class profile {
 	 *
 	 * @return string value of user name
 	 **/
-	public function getuserName() {
+	public function getUserName() {
 		return ($this->userName);
 	}
 
